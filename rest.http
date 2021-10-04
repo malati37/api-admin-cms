@@ -1,0 +1,23 @@
+# User api lists
+
+### get User
+
+GET http://localhost:8000/api/v1/user
+
+### create an User
+
+POST http://localhost:8000/api/v1/user
+Content-Type: application/json
+
+//fname, lname, dob, email, password,phone, address, gender,
+
+{
+    "fname" : "malati",
+    "lname" : "khawas",
+    "dob" : "2021-10-20",
+    "email": "khawas13malati123@gmail.com",
+    "password": "malati123",
+    "phone":"0410132050",
+    "address": "14/65 woniora road hurstville",
+    "gender": "female"
+}
